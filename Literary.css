@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.lijevi{
+    width: 400px;
+    height: 100%;
+    align-self: center;
+} 
+
+.desni{
+    width: 2000px;
+    height: 100%;
+} 
+
+h1{
+    text-align: center;
+}
+
+li a{
+    text-decoration: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    color:#333;
+    display: block;
+    transition-property: width, background-color;
+    transition-duration: 0.5s, 1s;
+    transition-timing-function: ease, linear;
+    
+    
+} 
+
+nav a:hover{
+    background-color: rgb(216, 16, 16);
+}
